@@ -1,0 +1,70 @@
+.dogDetailsPage{   
+    position: fixed;
+    z-index: 200;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.52);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+
+.dogDetails{
+    display: inline-block;
+    color: green;
+    background-color: #ffffff;
+    border-radius: 15px;  
+    width: 500px;  
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dogDetails h2{
+    margin: 2px;
+    font-size: 17px;
+}
+.dogDetails h3{
+    margin: 2px
+}
+
+.dogDetails img {
+    height: 400px;
+    width: 500px;
+    object-fit: fill;
+    object-fit: contain;
+}
+
+.weight{
+    display: inline-flex;
+    align-items: center;
+
+}
+.height{
+    display: inline-flex;
+    align-items: center;
+}
+.measures{
+    display: inline-block;
+    
+}
+.measures select{
+    background-color:#ffffff;
+    margin: 9px;
+    border: outset;
+    
+}
+.button{
+    display: inline-flex;
+    background-color:red;
+    margin-left: 14rem;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: table;
+    text-decoration: none;
+}
+.button:hover{
+    box-shadow: 0 0 28px rgba(255, 240, 157, 0.781);
+    
+}

@@ -1,0 +1,65 @@
+.order{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.order label{
+    color: white;    
+}
+.select {
+    display: flex;
+    color:white;
+    background-color:green;
+}
+.byName button{
+    background-color: limegreen;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.byName label{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.byWeight button{
+    background-color: limegreen;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.byWeight label{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.byForm{
+    display: flex;
+    cursor: pointer;
+}
+
+.byForm label{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.byForm select{
+    background-color: limegreen;
+    color: white;
+    cursor: pointer;
+}
+
+.byTemps{
+    display: flex;
+}
+
+.byTemps select{
+    background-color: limegreen;
+    color: white;
+    cursor: pointer;
+}
+
+.byTemps label{
+    font-family: Arial, Helvetica, sans-serif;
+}

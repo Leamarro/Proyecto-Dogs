@@ -1,0 +1,23 @@
+.searchbar{
+background-color: lightgrey;
+border-radius: 5px;
+}
+
+.searchbar button{
+    background-color: limegreen;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.searchbar input{
+    height: 28px;
+    border-radius: 5px;
+}
+
+.searchbar button:hover{
+    background-color: rgb(125, 228, 125);
+    cursor: pointer;
+}
+
+

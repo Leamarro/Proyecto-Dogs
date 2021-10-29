@@ -1,0 +1,80 @@
+.home{
+    background-color: bisque;
+}
+.dogs{
+    display: inline-block;
+    color: white;
+    background-color: limegreen;
+    border-radius: 15px;  
+    width: 320px;  
+    height: 450px;
+    text-decoration: none;
+    margin-inline: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 3px black;
+}
+.dogs:hover{  
+    text-shadow: 0 0 3px white;
+}
+.dogs img {
+    height: 300px;
+    width: 320px;
+    object-fit: fill;
+}
+.dogs h1 {
+    font-size: 23px;
+    margin: 5px;
+}
+.dogs p{
+    font-size: 17px;
+    margin: 7px;
+    text-align: center;
+}
+.cards{
+    display: inline-flex;
+    padding-bottom: 10px;
+}
+.pageNumbers{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.8rem;
+}
+.pageNumbers li {
+    background-color: limegreen;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    cursor: pointer;    
+}
+.pageNumbers li.active {
+    background-color: green;
+    color:#ffffff;
+}
+.pageNumbers li.button {
+    background-color: transparent;
+    color: limegreen;
+    border: none;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+.pageNumbers li.button:hover {
+    background-color:#000000;
+    color:#ffffff; 
+    text-shadow: 0 0 3px #ffffff;
+}
+.loadmore {
+    padding: 0.5rem;
+    background-color: transparent;
+    color: #300050;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 10px;
+}
+.loadmore:hover {
+    background-color: #dfdfdf;
+}
